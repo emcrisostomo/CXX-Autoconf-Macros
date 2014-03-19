@@ -7,6 +7,29 @@ following functionality:
   * Checks on the new features introduced by the C++11 standard in the
     `<functional>` header.
 
+Available Macros
+----------------
+
+The following macros check for new features introduced by the C++11 standard
+and defined in the `<functional>` header:
+
+  * `AX_CXX_HAVE_BAD_FUNCTION_CALL()`: this macro checks for
+    `std::bad_function_call`.
+  * `AX_CXX_HAVE_BIND()`:  this macro checks for `std::bind`.
+  * `AX_CXX_HAVE_BIT_AND()`: this macro checks for `std::bit_and`.
+  * `AX_CXX_HAVE_BIT_OR()`: this macro checks for `std::bit_or`.
+  * `AX_CXX_HAVE_BIT_XOR()`: this macro checks for `std::bit_xor`.
+  * `AX_CXX_HAVE_CREF()`: this macro checks for `std::cref`.
+  * `AX_CXX_HAVE_FUNCTION()`: this macro checks for `std::function`.
+  * `AX_CXX_HAVE_HASH()`: this macro checks for `std::hash`.
+  * `AX_CXX_HAVE_IS_BIND_EXPRESSION()`: this macro checks for 
+    `std::is_bind_expression`.
+  * `AX_CXX_HAVE_IS_PLACEHOLDER()`: this macro checks for `std::is_placeholder`.
+  * `AX_CXX_HAVE_MEM_FN()`: this macro checks for `std::mem_fn`.
+  * `AX_CXX_HAVE_REF()`: this macro checks for `std::ref`.
+  * `AX_CXX_HAVE_REFERENCE_WRAPPER()`: this macro checks for
+    `std::reference_wrapper`.
+
 Installation
 ------------
 
