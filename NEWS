@@ -1,0 +1,7 @@
+NEWS
+****
+
+New in 1:
+
+  * Added Autoconf macros checking for new C++11 feature in the
+    <functional> header.

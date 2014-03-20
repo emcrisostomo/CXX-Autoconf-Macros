@@ -1,0 +1,18 @@
+Installation Instructions
+=========================
+
+To use these Autoconf macros into your project, perform the following
+operations:
+
+  * Users should get the latest release versions of these macros from the
+[GNU Autoconf Archive][gar].
+
+[gar]: http://www.gnu.org/software/autoconf-archive/
+
+  * Copy the macro files to the macro directory of your project, as speicfied
+by the `AC_CONFIG_MACRO_DIRS` macro in `configure.ac`.
+
+  * Check the macro dependencies described in the documentation and add
+    them all to the same directory.
+
+  * Use the macros in your `configure.ac`. 
