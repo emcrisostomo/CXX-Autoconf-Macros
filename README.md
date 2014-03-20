@@ -37,7 +37,7 @@ This repository is a development repository which is *not* meant to be used by
 GNU Autotools users.  Instead, users should get the latest release versions of
 these macros from the [GNU Autoconf Archive][gar].
 
-[gar]: http://www.gnu.org/software/autoconf-archive/ 
+[gar]: http://www.gnu.org/software/autoconf-archive/
 
 Bug Reports
 -----------

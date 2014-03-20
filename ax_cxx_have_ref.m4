@@ -1,3 +1,7 @@
+# ===========================================================================
+#      http://www.gnu.org/software/autoconf-archive/ax_cxx_have_ref.html
+# ===========================================================================
+#
 # SYNOPSIS
 #
 #   AX_CXX_HAVE_REF()
@@ -7,8 +11,8 @@
 #   This macro checks if std::ref, added in C++11, is defined in the
 #   <functional> header.
 #
-#   If it is, define the ax_cv_cxx_have_ref environment variable to
-#   "yes" and define HAVE_CXX_REF.
+#   If it is, define the ax_cv_cxx_have_ref environment variable to "yes"
+#   and define HAVE_CXX_REF.
 #
 #   NOTE: This macros depends on AX_CXX_NAMESPACES.
 #
@@ -16,10 +20,10 @@
 #
 #   Copyright (c) 2014 Enrico M. Crisostomo <enrico.m.crisostomo@gmail.com>
 #
-#   Copying and distribution of this file, with or without modification,
-#   are permitted in any medium without royalty provided the copyright
-#   notice and this notice are preserved.  This file is offered as-is,
-#   without any warranty.
+#   Copying and distribution of this file, with or without modification, are
+#   permitted in any medium without royalty provided the copyright notice
+#   and this notice are preserved.  This file is offered as-is, without any
+#   warranty.
 
 #serial 2
 
