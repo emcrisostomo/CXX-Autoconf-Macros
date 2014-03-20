@@ -3,6 +3,29 @@ ChangeLog
 
 2014-20-03  Enrico M. Crisostomo  <enrico.m.crisostomo@gmail.com>
 
+        release: stable release 2
+
+        * ax_cxx_have_bad_function_call.m4: remove useless dependency.
+	* ax_cxx_have_bind.m4: remove useless dependency.
+	* ax_cxx_have_bit_and.m4: remove useless dependency.
+	* ax_cxx_have_bit_or.m4: remove useless dependency.
+	* ax_cxx_have_bit_xor.m4: remove useless dependency.
+	* ax_cxx_have_cref.m4: remove useless dependency.
+	* ax_cxx_have_function.m4: remove useless dependency.
+	* ax_cxx_have_hash.m4: remove useless dependency.
+	* ax_cxx_have_is_bind_expression.m4: remove useless dependency.
+	* ax_cxx_have_is_placeholder.m4: remove useless dependency.
+	* ax_cxx_have_mem_fn.m4: remove useless dependency.
+	* ax_cxx_have_ref.m4: remove useless dependency.
+	* ax_cxx_have_reference_wrapper.m4: remove useless dependency.
+
+        release: stable release 1
+
+        * ax_cxx_have_placeholders.m4: add new macro to check for
+          std::placeholders.
+
+2014-20-03  Enrico M. Crisostomo  <enrico.m.crisostomo@gmail.com>
+
         release: stable release 1
 
         * ax_cxx_have_bad_function_call.m4: initial version.

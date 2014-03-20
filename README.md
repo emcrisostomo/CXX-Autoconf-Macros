@@ -26,6 +26,7 @@ and defined in the `<functional>` header:
     `std::is_bind_expression`.
   * `AX_CXX_HAVE_IS_PLACEHOLDER()`: this macro checks for `std::is_placeholder`.
   * `AX_CXX_HAVE_MEM_FN()`: this macro checks for `std::mem_fn`.
+  * `AX_CXX_HAVE_PLACEHOLDERS()`: this macro checks for `std::placeholders`.
   * `AX_CXX_HAVE_REF()`: this macro checks for `std::ref`.
   * `AX_CXX_HAVE_REFERENCE_WRAPPER()`: this macro checks for
     `std::reference_wrapper`.
