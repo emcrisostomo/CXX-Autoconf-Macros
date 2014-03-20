@@ -14,6 +14,12 @@
 #   If it is, define the ax_cv_cxx_have_placeholders environment variable
 #   to "yes" and define HAVE_CXX_PLACEHOLDERS.
 #
+# CONTRIBUTING
+#
+#   You can contribute changes on GitHub by forking this repository:
+#
+#   https://github.com/emcrisostomo/CXX-Autoconf-Macros.git
+#
 # LICENSE
 #
 #   Copyright (c) 2014 Enrico M. Crisostomo <enrico.m.crisostomo@gmail.com>
