@@ -14,8 +14,6 @@
 #   If it is, define the ax_cv_cxx_have_bit_xor environment variable to
 #   "yes" and define HAVE_CXX_BIT_XOR.
 #
-#   NOTE: This macros depends on AX_CXX_NAMESPACES.
-#
 # LICENSE
 #
 #   Copyright (c) 2014 Enrico M. Crisostomo <enrico.m.crisostomo@gmail.com>
@@ -31,7 +29,7 @@ AC_DEFUN([AX_CXX_HAVE_BIT_XOR],
   [AC_CACHE_CHECK(
     [for std::bit_xor in functional],
     ax_cv_cxx_have_bit_xor,
-    [AC_REQUIRE([AX_CXX_NAMESPACES])
+    [dnl
       AC_LANG_PUSH([C++])
       AC_COMPILE_IFELSE([AC_LANG_PROGRAM(
         [

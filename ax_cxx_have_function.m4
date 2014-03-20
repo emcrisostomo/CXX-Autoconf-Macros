@@ -14,8 +14,6 @@
 #   If it is, define the ax_cv_cxx_have_function environment variable to
 #   "yes" and define HAVE_CXX_FUNCTION.
 #
-#   NOTE: This macros depends on AX_CXX_NAMESPACES.
-#
 # LICENSE
 #
 #   Copyright (c) 2014 Enrico M. Crisostomo <enrico.m.crisostomo@gmail.com>
@@ -31,7 +29,7 @@ AC_DEFUN([AX_CXX_HAVE_FUNCTION],
   [AC_CACHE_CHECK(
     [for std::bad_function_call in functional],
     ax_cv_cxx_have_function,
-    [AC_REQUIRE([AX_CXX_NAMESPACES])
+    [dnl
       AC_LANG_PUSH([C++])
       AC_COMPILE_IFELSE([AC_LANG_PROGRAM(
         [

@@ -14,8 +14,6 @@
 #   If it is, define the ax_cv_cxx_have_hash environment variable to "yes"
 #   and define HAVE_CXX_HASH.
 #
-#   NOTE: This macros depends on AX_CXX_NAMESPACES.
-#
 # LICENSE
 #
 #   Copyright (c) 2014 Enrico M. Crisostomo <enrico.m.crisostomo@gmail.com>
@@ -31,12 +29,12 @@ AC_DEFUN([AX_CXX_HAVE_HASH],
   [AC_CACHE_CHECK(
     [for std::hash in functional],
     ax_cv_cxx_have_hash,
-    [AC_REQUIRE([AX_CXX_NAMESPACES])
+    [dnl
       AC_LANG_PUSH([C++])
       AC_COMPILE_IFELSE([AC_LANG_PROGRAM(
         [
-          [#include <functional>
-           #include <string>]
+          [#include <functional>]
+          [#include <string>]
           [using std::hash;]
         ],
         []
