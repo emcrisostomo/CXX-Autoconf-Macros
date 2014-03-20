@@ -4,8 +4,8 @@
 #
 # DESCRIPTION
 #
-#   This macros checks if std::reference_wrapper, added in C++11, is defined in the
-#   <functional> header.
+#   This macro checks if std::reference_wrapper, added in C++11, is defined in 
+#   the <functional> header.
 #
 #   If it is, define the ax_cv_cxx_have_reference_wrapper environment variable
 #   to "yes" and define HAVE_CXX_REFERENCE_WRAPPER.
@@ -21,7 +21,7 @@
 #   notice and this notice are preserved.  This file is offered as-is,
 #   without any warranty.
 
-#serial 1
+#serial 2
   
 AC_DEFUN([AX_CXX_HAVE_REFERENCE_WRAPPER],
   [AC_CACHE_CHECK(

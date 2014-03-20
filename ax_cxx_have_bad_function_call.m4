@@ -4,7 +4,7 @@
 #
 # DESCRIPTION
 #
-#   This macros checks if std::bad_function_call, added in C++11, is defined in
+#   This macro checks if std::bad_function_call, added in C++11, is defined in
 #   the <functional> header.
 #
 #   If it is, define the ax_cv_cxx_have_bad_function_call environment variable
@@ -21,7 +21,7 @@
 #   notice and this notice are preserved.  This file is offered as-is,
 #   without any warranty.
 
-#serial 1
+#serial 2
 
 AC_DEFUN([AX_CXX_HAVE_BAD_FUNCTION_CALL],
   [AC_CACHE_CHECK(
