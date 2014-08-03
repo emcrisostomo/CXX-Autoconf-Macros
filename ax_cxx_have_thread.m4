@@ -49,9 +49,9 @@ AC_DEFUN([AX_CXX_HAVE_THREAD],
         [ax_cv_cxx_have_thread=no]
       )
     AC_LANG_POP([C++])])
-    if test x"ax_cv_cxx_have_thread" = "xyes"
+    if test x"$ax_cv_cxx_have_thread" = "xyes"
     then
-      AC_DEFINE(HAVE_CXX_BIND,
+      AC_DEFINE(HAVE_CXX_THREAD,
         1,
         [Define if thread defines the std::thread class.])
     fi

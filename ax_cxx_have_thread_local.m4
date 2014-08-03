@@ -48,7 +48,7 @@ AC_DEFUN([AX_CXX_HAVE_THREAD_LOCAL],
         [ax_cv_cxx_have_thread_local=no]
       )
     AC_LANG_POP([C++])])
-    if test x"ax_cv_cxx_have_thread_local" = "xyes"
+    if test x"$ax_cv_cxx_have_thread_local" = "xyes"
     then
       AC_DEFINE(HAVE_CXX_THREAD_LOCAL,
         1,
